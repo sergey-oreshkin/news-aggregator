@@ -3,7 +3,6 @@
 target
 build
 .gradle
-!gradle/wrapper/gradle-wrapper.jar
 
 # Log file
 *.log
@@ -29,3 +28,6 @@ replay_pid*
 
 #Idea
 .idea
+
+#Other
+!gradle/wrapper/gradle-wrapper.jar
