@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  liquibase:
+    enabled: true
+    change-log: classpath:changelog/db.changelog-master.yml
+
+app:
+  request:
+    period: 300000
+    delay: 500
