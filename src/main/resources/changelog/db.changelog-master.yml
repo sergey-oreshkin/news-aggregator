@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: changelog/scripts/migration_v1_create_rss_table.sql
+  - include:
+      file: changelog/scripts/migration_v2_populate_rss_table.sql

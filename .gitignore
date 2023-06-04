@@ -28,3 +28,6 @@ replay_pid*
 
 #Idea
 .idea
+
+#Other
+!gradle/wrapper/gradle-wrapper.jar
